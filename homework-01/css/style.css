@@ -1,0 +1,13 @@
+h1, h3 {
+    text-align: center;
+    font-weight: bold;
+    color: rgb(204, 0, 0);
+}
+
+h2 {
+    text-transform: uppercase;
+}
+
+.text-italic {
+    font-style: italic;
+}
