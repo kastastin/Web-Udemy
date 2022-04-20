@@ -20,3 +20,15 @@ h2 {
 #begin {
     color: orange;
 }
+
+.box {
+    width: 300px;
+    height: 300px;
+    background-color: green;
+    padding: 20px;
+    border: 3px solid black;
+    /* border-width: 3px;
+    border-style: solid;
+    border-color: black; */
+    margin: 20px;
+}
