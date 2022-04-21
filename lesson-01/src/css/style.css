@@ -36,6 +36,7 @@ h2 {
     border-style: solid;
     border-color: black; */
     margin: 20px;
+    z-index: 3;
 }
 
 img {
@@ -48,4 +49,30 @@ a {
     margin: 20px;
     padding: 20px;
     width: 500px;
+}
+
+.example {
+    position: relative;
+    background-color: #aeaeae;
+    height: 700px;
+}
+
+nav {
+    /* static, relative, absolute, fixed, inherit */
+    /* top, right, bottom, left */
+    position: inherit;
+    right: 10px;
+    top: 100px;
+}
+
+.example-box {
+    position: relative;
+
+}
+
+.red {
+    position: absolute;
+    left: 80px;
+    background-color: red;
+    z-index: 4;
 }
