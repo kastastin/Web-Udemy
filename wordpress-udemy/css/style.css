@@ -164,6 +164,22 @@ h2.title {
     line-height: 21px;
 }
 
+.my-flex-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 450px;
+}
+
+.my-flex-block {
+    width: 150px;
+    height: 150px;
+    background-color: red;
+    color: #fff;
+    text-align: center;
+}
+
 /* 
     .gift .gift_btn {
         margin-top: 52px;
