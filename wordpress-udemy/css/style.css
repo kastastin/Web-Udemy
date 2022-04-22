@@ -239,10 +239,97 @@ h2.title {
     line-height: 20px;
 }
 
-/* 
-    .gift .gift_btn {
-        margin-top: 52px;
-        box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
-        border: none;
-    }   
-*/
+.gift {
+    min-height: 630px;
+    padding: 85px 0 85px 0;
+    background-color: #efefef;
+}
+
+.gift .gift-img {
+    display: block;
+    margin: 0 auto;
+}
+
+.gift .gift-text {
+    margin-top: 40px;
+    color: #252525;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 43px;
+}
+
+.gift .gift-btn {
+    margin-top: 50px;
+    border: none;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+}  
+
+.first {
+    min-height: 515px;
+    padding: 90px 0 65px 0;
+}
+
+.first .first-img {
+    display: block;
+    margin: 0 auto;
+}
+
+.first .first-text {
+    margin-top: 35px;
+    color: #252525;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 30px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.first .first-date {
+    margin-top: 30px;
+    color: #299cbd;
+    text-align: center;
+    font-family: "Roboto - Black";
+    font-size: 36px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.first .first-subtitle {
+    margin-top: 25px;
+    color: #4a4a4a;
+    text-align: center;
+    font-size: 23px;
+    font-weight: 400;
+}
+
+footer {
+    min-height: 165px;
+    padding: 60px 0 70px 0;
+    background-color: #1a1a1a;
+}
+
+.info {
+    margin: 0 auto;
+    width: 375px;
+    color: #888888;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 21px;
+}
+
+footer a {
+    color: #888888;
+    font-family: Roboto;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 21px;
+    text-decoration: none;
+}
+
+.underlined {
+    text-decoration: underline;
+}
